@@ -1,19 +1,3 @@
-// const express = require('express');
-// const cors = require ('cors');
-// const app = express();
-// // const port = 5000;
-
-// const SpeechSynthesis = require ('./SpeechSynthesis');
-
-// app.use(cors({ origin: '*' })); 
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: true }));
-
-// app.use('/api/language',SpeechSynthesis);
-
-// const port = process.env.PORT || 3000;
-// app.listen (port, () => console.log('server is running on ${port}'));
-
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
