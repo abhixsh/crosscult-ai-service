@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 // Use the function for your /api/translate endpoint with POST method
 app.post('/api/translate', upload.single("audioFile"), fromFile);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3004;
 app.listen(port, () => console.log(`Server is running on port ${port}`));
 
 
